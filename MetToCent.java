@@ -1,11 +1,10 @@
  class MetToCent {
     public static void main(String args []){
-        double meters ;
-        double centimeters;
+       int count;
 
-        meters = 0.75;
-        centimeters = meters*100;
+       for(count = 0; count<5 ; count = count +1)
+       System.out.println(count);
 
-        System.out.println(meters + " meter is " + centimeters + " centimeter");
+       System.out.println("done");
     }
 }
