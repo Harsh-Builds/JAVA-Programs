@@ -56,7 +56,8 @@
     //  System.out.println(items[2][1]) ;
 
     int itmLgth = items.length;
-
+    System.out.println(itmLgth);
+    
     for(int i = 0; i < itmLgth; i++){                   // we can also do this by for each loop.
         for(int j = 0; j < items[i].length ; j++){
             System.out.print(items[i][j] + " ");
